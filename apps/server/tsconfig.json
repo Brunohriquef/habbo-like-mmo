@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@protocol": ["../../packages/protocol/src"],
+      "@pathfinding": ["../../packages/pathfinding/src"]
+    }
+  }
+}
